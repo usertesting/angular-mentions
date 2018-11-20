@@ -9,6 +9,7 @@ import { InMemoryDataService }  from './demo-async/in-memory-data.service';
 import { AppComponent } from './app.component';
 import { MentionModule } from '../mention/mention.module';
 import { DemoAsyncComponent } from './demo-async/demo-async.component';
+import { DemoConfigComponent } from './demo-config/demo-config.component';
 import { DemoOptionsComponent } from './demo-options/demo-options.component';
 import { DemoTemplateComponent } from './demo-template/demo-template.component';
 import { DemoTinymceComponent } from './demo-tinymce/demo-tinymce.component';
@@ -24,6 +25,7 @@ import { DemoContenteditableComponent } from './demo-contenteditable/demo-conten
   declarations: [
     AppComponent,
     DemoAsyncComponent,
+    DemoConfigComponent,
     DemoOptionsComponent,
     DemoTemplateComponent,
     DemoTinymceComponent,
